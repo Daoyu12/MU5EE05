@@ -1,0 +1,30 @@
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -lrt
+total 116
+drwxrwxr-x 2 daoyu daoyu  4096 sept. 27 13:10 sardar
+-rw-rw-r-- 1 daoyu daoyu    32 sept. 27 13:10 README.md
+-rw-rw-r-- 1 daoyu daoyu 34359 sept. 27 13:10 Microsoft
+-rw-rw-r-- 1 daoyu daoyu 70408 sept. 27 13:10 answering-machine.txt
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ du Microsoft
+36      Microsoft
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ stat Microsoft
+  File: Microsoft
+  Size: 34359           Blocks: 72         IO Block: 4096   regular file
+Device: 803h/2051d      Inode: 537643      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   daoyu)   Gid: ( 1000/   daoyu)
+Access: 2023-10-05 10:16:04.287999798 +0200
+Modify: 2023-09-27 13:10:01.536082850 +0200
+Change: 2023-09-27 13:10:01.536082850 +0200
+ Birth: 2023-09-27 13:10:01.536082850 +0200
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls  -d .*
+.  ..  .git  .lightbulb
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -rt
+sardar  README.md  Microsoft  answering-machine.txt
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -t
+answering-machine.txt  Microsoft  README.md  sardar
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -lsr
+total 116
+ 4 drwxrwxr-x 2 daoyu daoyu  4096 sept. 27 13:10 sardar
+ 4 -rw-rw-r-- 1 daoyu daoyu    32 sept. 27 13:10 README.md
+36 -rw-rw-r-- 1 daoyu daoyu 34359 sept. 27 13:10 Microsoft
+72 -rw-rw-r-- 1 daoyu daoyu 70408 sept. 27 13:10 answering-machine.txt
+daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ 
