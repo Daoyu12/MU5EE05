@@ -1,0 +1,37 @@
+git clone https://github.com/khachicha/MU5EES05_lab_5.git
+
+rm -rf .git
+
+mv lab5 /home/daoyu/Desktop/MU5EE05/partie_1
+
+Question 3: On peut utiliser la commande "history" pour voir toutes les commandes que vous avez déjà tapées.
+
+Question 4: history > history.txt
+
+Question 5: cat sardar/* >> sardar_power.txt
+
+Question 6: Commande "wc sardar_power.txt"   résultat: 1980 lignes, 16783 mots et 101780 caractères.
+
+Question 7: "grep -r -i singh" faites afficher toutes les lignes qui contiennent singh dans ce fichier.
+
+Question 8: Supprimez le fichier sardar_power.txt. "rm sardar_power.txt"
+
+Question 9: "grep -r -i singh" faites afficher à nouveau toutes les lignes des fichiers du répertoire sardar/ qui contiennent le mot singh (en majuscules ou en minuscules). i: mascules et minuscules, r: tous les fichiers.
+
+Question 9: "grep -i -c -r singh" compte le nombre de lignes obtenues dans les fichier. sardar/sardar2.txt:1; sardar/sardar1.txt:45; sardar/sardar3.txt:77 
+
+Question 10: "grep -icrE "singh.*santa|santa.*singh" sardar/" compter que les lignes qui contiennent à la fois santa et singh, toujours sans faire de différence entre majuscules et minuscules.
+
+Question 11: Affinez une fois de plus la commande pour ne compter que les lignes qui contiennent santa, singh, mais pas banta. "grep -irE "singh.*santa|santa.*singh" sardar/ | grep -i -v -E -c banta"
+
+Question 12: Trouver tous les fichiers dans le répertoire lab5 qui finisse par .txt.
+
+Question 13. Lancer la commande permettant de comparer le contenu deux fichiers noyau.V1 et noyau.V2. Identifier la différence entre les deux fichiers.
+
+Question 14. Installez tkdiff avec la commande apt et visualiser la différence entre les deux fichiers : tkdiff file1 file2
+
+Question 15. Créer un patch permettant de mettre à jour le noyau V1 vers noyau.V2. Pour cela stocker la différence entre les deux fichiers dans un nouveau fichier que vous appellerez update.patch. Appliquer le nouveau patch sur le fichier noyau.V1. Vérifier qu’il est bien mis à jours.
+
+Question 16. Créer une archive compresser (.tar.bz2) du répertoire : lab5.tar.bz2
+
+Question 17. Mettez le fichier archivé dans votre repository et synchroniser avec GitHub vos modifications. 
