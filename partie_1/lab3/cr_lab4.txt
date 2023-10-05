@@ -48,3 +48,8 @@ la commande "rm Microsoft" pour supprimer le fichier "Microsoft"
 Pour créer un lien pour le fichier "sardar1.txt" dans le répertoire lab4, taper la commande "ln -s /home/daoyu/Desktop/MU5EE05/partie_1/lab4/sardar/sardar1.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4"
 
 pour visulaiser les liens et voir ses sources, taper la commande "ls -l" dans leur répertoire.
+
+Si il y a perte de fichier source, nous verrons que le lien symbolique va devenir rouge.
+
+
+
