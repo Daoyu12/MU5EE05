@@ -32,3 +32,19 @@ daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$
 cat answering-machine.txt72 -rw-rw-r-- 1 
 more answering-machine.txt
 less answering-machine.txt
+nano answering-machine.txt
+ctrl+shift+G 1666   Exit:ctrl+x
+tail -n 20 sardar3.txt
+dans lab4, taper: grep trust Microsoft      pour chercher le mot "trust" dans le fichier Microsoft
+dans lab4, taper: grep -r money             pour chercher le mot "money" dans tous les fichier de répertoire lab4
+dans lab4, taper: grep -r -i money          pour chercher le mot "money" et le mot "Money" dans tous les fichier de répertoire lab4
+
+
+la commonde "mv .lightbulb lightbulb" sert à renommer le fichier ".lightbulb" par "lightbulb"
+commande "pwd" sert à visualiser le répertoire de travaille
+dans le répertoire sardar taper la commande "mv sardar3.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4" permet de déplacer le fichier "sardar3" vers le répertoire lab4.
+la commande "rm Microsoft" pour supprimer le fichier "Microsoft"
+
+Pour créer un lien pour le fichier "sardar1.txt" dans le répertoire lab4, taper la commande "ln -s /home/daoyu/Desktop/MU5EE05/partie_1/lab4/sardar/sardar1.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4"
+
+pour visulaiser les liens et voir ses sources, taper la commande "ls -l" dans leur répertoire.
