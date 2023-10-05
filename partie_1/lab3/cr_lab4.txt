@@ -28,3 +28,4 @@ total 116
 36 -rw-rw-r-- 1 daoyu daoyu 34359 sept. 27 13:10 Microsoft
 72 -rw-rw-r-- 1 daoyu daoyu 70408 sept. 27 13:10 answering-machine.txt
 daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ 
+ syscom
