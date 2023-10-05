@@ -1,12 +1,9 @@
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -lrt
-total 116
-drwxrwxr-x 2 daoyu daoyu  4096 sept. 27 13:10 sardar
--rw-rw-r-- 1 daoyu daoyu    32 sept. 27 13:10 README.md
--rw-rw-r-- 1 daoyu daoyu 34359 sept. 27 13:10 Microsoft
--rw-rw-r-- 1 daoyu daoyu 70408 sept. 27 13:10 answering-machine.txt
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ du Microsoft
-36      Microsoft
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ stat Microsoft
+
+Question 4: La commande "ls -lrt" lit les tailles des fichiers dans le répertoire lab4, en unité octet. Par exemple pour le fichier Microsoft il afficher: -rw-rw-r-- 1 daoyu daoyu 34359 sept. 27 13:10 Microsoft , d'où 34359 est sa taille en octet.
+
+Question 6: La commande "du Microsoft" lit la tailles du fichier Microsoft, en unité kb. Il afficher 36      Microsoft qui indique que sa taile de disque est 36 Kilooctets.
+
+Question 7:  Pour afficher les informations correspondantes au fichier Microsoft, taper la commande "stat Microsoft" . 
   File: Microsoft
   Size: 34359           Blocks: 72         IO Block: 4096   regular file
 Device: 803h/2051d      Inode: 537643      Links: 1
@@ -15,53 +12,57 @@ Access: 2023-10-05 10:16:04.287999798 +0200
 Modify: 2023-09-27 13:10:01.536082850 +0200
 Change: 2023-09-27 13:10:01.536082850 +0200
  Birth: 2023-09-27 13:10:01.536082850 +0200
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls  -d .*
-.  ..  .git  .lightbulb
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -rt
-sardar  README.md  Microsoft  answering-machine.txt
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -t
-answering-machine.txt  Microsoft  README.md  sardar
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ ls -lsr
-total 116
- 4 drwxrwxr-x 2 daoyu daoyu  4096 sept. 27 13:10 sardar
- 4 -rw-rw-r-- 1 daoyu daoyu    32 sept. 27 13:10 README.md
-36 -rw-rw-r-- 1 daoyu daoyu 34359 sept. 27 13:10 Microsoft
-72 -rw-rw-r-- 1 daoyu daoyu 70408 sept. 27 13:10 answering-machine.txt
-daoyu@daoyu-virtual-machine:~/Desktop/MU5EE05/partie_1/MU5EES05_lab_4$ 
 
-cat answering-machine.txt72 -rw-rw-r-- 1 
-more answering-machine.txt
-less answering-machine.txt
-nano answering-machine.txt
-ctrl+shift+G 1666   Exit:ctrl+x
-tail -n 20 sardar3.txt
-dans lab4, taper: grep trust Microsoft      pour chercher le mot "trust" dans le fichier Microsoft
-dans lab4, taper: grep -r money             pour chercher le mot "money" dans tous les fichier de répertoire lab4
-dans lab4, taper: grep -r -i money          pour chercher le mot "money" et le mot "Money" dans tous les fichier de répertoire lab4
+Question 8: La commande "ls  -d .*"  permet de afficher les fichiers cachés, on trouve ensuite le ficher ".lightbulb" est caché.  Affichage du terminal: .  ..  .git  .lightbulb
 
+Question 9: Pour faites afficher les fichiers les plus anciens dans le répertoire, nous utilisons la commande "ls -rt", et pour faites afficher les fichiers les plus récents dans le répertoire, nous utilisons la commande "ls -r".
 
-la commonde "mv .lightbulb lightbulb" sert à renommer le fichier ".lightbulb" par "lightbulb"
-commande "pwd" sert à visualiser le répertoire de travaille
-dans le répertoire sardar taper la commande "mv sardar3.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4" permet de déplacer le fichier "sardar3" vers le répertoire lab4.
-la commande "rm Microsoft" pour supprimer le fichier "Microsoft"
+Question 10: Pour faites afficher les fichiers les plus petits en premier, et les plus gros en dernier, taper la commande "ls -lsr"
 
-Pour créer un lien pour le fichier "sardar1.txt" dans le répertoire lab4, taper la commande "ln -s /home/daoyu/Desktop/MU5EE05/partie_1/lab4/sardar/sardar1.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4"
+Question 11: La commande "cat answering-machine.txt" pour afficher le contenu du fichier answering-machine.txt.
 
-pour visulaiser les liens et voir ses sources, taper la commande "ls -l" dans leur répertoire.
+Question 12: La commande "more answering-machine.txt" peut afficher le ficher avec un outil qui attends que vous appuyez sur une touche à la fin de chaque page, pour vous laisser le temps de lire.
 
-Si il y a perte de fichier source, nous verrons que le lien symbolique va devenir rouge.
+Question 13: La commande "nano answering-machine.txt' sert à ouvrir avec nano le fichier answering-machine.txt.
 
-Pour Modifier les droits d’écriture sur le fichier sardar/sardar1.txt en mettant ce fichier en lecture seule. Nous tapons la commande "chmod a-w sardar1.txt" qui supprime la droite d'écricure de fichier "sardar1.txt"
+Question 14: Rajouter le texte suivant à la fin du fichier “Welcome systemes communicants”, c'est fait par les commandes "ctrl+shift+G" puis la ligne d'écriturre "1666", enfin taper le texte “Welcome systemes communicants”.
 
-"chmod a+w sardar1.txt" qui rajoute la droite d'écricure de fichier "sardar1.txt"
+Question 15: Sauvegarder ce fichier par appuyant "Ctrl X" et "Y".
 
-Pour visualiser les droits d'accès des fichiers, Taper "ls -l"
+Question 20: La commande "tail -n 20 sardar3.txt" peut afficher les 20 dernières lignes du fichier sardar3.txt.
 
-"tar -czvf lab4.tar.bz2 /home/daoyu/Desktop/MU5EE05/partie_1/lab4" pour créer un document compressé du répertoire lab4
+Question 21: Dans lab4, taper: "grep trust Microsoft" sert à chercher le mot "trust" dans le fichier Microsoft.
 
-"tar tvf lab4.tar.bz2" a pour but d'afficher le contenu du archive lab4.tar.bz2
+Question 22: Dans lab4, taper: "grep -r money" sert à chercher le mot "money" dans tous les fichier de répertoire lab4
 
-"mv lab4.tar.bz2 /home/daoyu/Desktop/MU5EE05/partie_1/lab4" permet de mettre l'archive dans le répertoire lab4 
+Question 23: Dans lab4, taper: "grep -r -i money" sert à chercher le mot "money" et le mot "Money" dans tous les fichier de répertoire lab4
+
+Question 24: La commonde "mv .lightbulb lightbulb" sert à renommer le fichier ".lightbulb" par "lightbulb"
+
+Question 25: La commande "pwd" sert à visualiser le répertoire de travaille
+
+Question 26: Dans le répertoire sardar taper la commande "mv sardar3.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4" permet de déplacer le fichier "sardar3" vers le répertoire lab4.
+
+Question 27: "cd .." permet de retourner dans le répertoire parent.
+
+Question 28: La commande "rm Microsoft" pour supprimer le fichier "Microsoft".
+
+Question 29: Pour créer un lien pour le fichier "sardar1.txt" dans le répertoire lab4, taper la commande "ln -s /home/daoyu/Desktop/MU5EE05/partie_1/lab4/sardar/sardar1.txt /home/daoyu/Desktop/MU5EE05/partie_1/lab4".
+
+Question 30: Pour visulaiser les liens et voir ses sources, taper la commande "ls -l" dans leur répertoire.
+
+Question 31: Supprimer le fichier sardar/sardar2.txt, nous verrons que le lien symbolique va devenir rouge.
+
+Question 32: Pour Modifier les droits d’écriture sur le fichier sardar/sardar1.txt en mettant ce fichier en lecture seule. Nous tapons la commande "chmod a-w sardar1.txt" qui supprime la droite d'écricure de fichier "sardar1.txt"
+
+Question 33: Pour visualiser les droits d'accès des fichiers, Taper "ls -l", et la commande "chmod a+w sardar1.txt" peut arriver à rajoute la droite d'écricure de fichier "sardar1.txt"
+
+Question 34: "tar -czvf lab4.tar.bz2 /home/daoyu/Desktop/MU5EE05/partie_1/lab4" pour créer un document compressé du répertoire lab4
+
+Question 35: "tar tvf lab4.tar.bz2" a pour but d'afficher le contenu du archive lab4.tar.bz2
+
+Question 36: "mv lab4.tar.bz2 /home/daoyu/Desktop/MU5EE05/partie_1/lab4" permet de mettre l'archive dans le répertoire lab4 
+
 
 
 
