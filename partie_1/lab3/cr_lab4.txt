@@ -51,5 +51,9 @@ pour visulaiser les liens et voir ses sources, taper la commande "ls -l" dans le
 
 Si il y a perte de fichier source, nous verrons que le lien symbolique va devenir rouge.
 
+Pour Modifier les droits d’écriture sur le fichier sardar/sardar1.txt en mettant ce fichier en lecture seule. Nous tapons la commande "chmod a-w sardar1.txt" qui supprime la droite d'écricure de fichier "sardar1.txt"
+
+chmod a+w sardar1.txt qui rajoute la droite d'écricure de fichier "sardar1.txt"
+
 
 
