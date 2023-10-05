@@ -26,9 +26,9 @@ Question 11: Affinez une fois de plus la commande pour ne compter que les lignes
 
 Question 12: Trouver tous les fichiers dans le répertoire lab5 qui finisse par .txt.
 
-Question 13. Lancer la commande permettant de comparer le contenu deux fichiers noyau.V1 et noyau.V2. Identifier la différence entre les deux fichiers.
+Question 13. Lancer la commande permettant de comparer le contenu deux fichiers noyau.V1 et noyau.V2. Identifier la différence entre les deux fichiers. "diff noyau.v1 noyau.v2"
 
-Question 14. Installez tkdiff avec la commande apt et visualiser la différence entre les deux fichiers : tkdiff file1 file2
+Question 14. "sudo apt install tkdiff" pour installez tkdiff, puis taper "tkdiff noyau1 noyau2"
 
 Question 15. Créer un patch permettant de mettre à jour le noyau V1 vers noyau.V2. Pour cela stocker la différence entre les deux fichiers dans un nouveau fichier que vous appellerez update.patch. Appliquer le nouveau patch sur le fichier noyau.V1. Vérifier qu’il est bien mis à jours.
 
