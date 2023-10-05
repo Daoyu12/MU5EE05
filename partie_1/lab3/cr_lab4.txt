@@ -53,7 +53,16 @@ Si il y a perte de fichier source, nous verrons que le lien symbolique va deveni
 
 Pour Modifier les droits d’écriture sur le fichier sardar/sardar1.txt en mettant ce fichier en lecture seule. Nous tapons la commande "chmod a-w sardar1.txt" qui supprime la droite d'écricure de fichier "sardar1.txt"
 
-chmod a+w sardar1.txt qui rajoute la droite d'écricure de fichier "sardar1.txt"
+"chmod a+w sardar1.txt" qui rajoute la droite d'écricure de fichier "sardar1.txt"
+
+Pour visualiser les droits d'accès des fichiers, Taper "ls -l"
+
+"tar -czvf lab4.tar.bz2 /home/daoyu/Desktop/MU5EE05/partie_1/lab4" pour créer un document compressé du répertoire lab4
+
+"tar tvf lab4.tar.bz2" a pour but d'afficher le contenu du archive lab4.tar.bz2
+
+"mv lab4.tar.bz2 /home/daoyu/Desktop/MU5EE05/partie_1/lab4" permet de mettre l'archive dans le répertoire lab4 
+
 
 
 
