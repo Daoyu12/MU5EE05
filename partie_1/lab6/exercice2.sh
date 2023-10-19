@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+# les deux nombres entrées
 nombre1="$1"
 nombre2="$2"
 

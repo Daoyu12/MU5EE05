@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# entrer une repertoire dans laquelle on veut chercher le dossier
 repertoire="$1"
 
 if [ -d "$repertoire" ]; then
@@ -10,4 +9,7 @@ if [ -d "$repertoire" ]; then
             echo "Répertoire : $dossier"
         fi
     done
+else
+    echo "Le chemin spécifié n'est pas un répertoire valide."
+    exit 1
 fi
