@@ -6,3 +6,4 @@ La commande "export PATH=$PATH:/opt/exercice.sh" nous fait pouvoir exécuter le 
 Ensuite, nous pouvons fermer votre terminal et relancer le, nous pouvons directement exécuter le fichier par la commande "exercice.sh".
 Identifier le fichier script lors du démarrage d’un nouveau terminal: Entrer dans le fichier bashrc par la commande "nano ~/.bashrc" et rajoute "export PATH=$PATH:/opt/exercice.sh" une fois encore et enfin sauvegarder.
 Tester en relançant à nouveau le script à partir de votre répertoire $HOME. ça marche.
+Pour copier les deux fichiers nous avons rédigé et changé, faites les commandes respectivement "cp ~/.bashrc /home/daoyu/Desktop/MU5EE05/partie_1/lab7/.bashrc" et "cp /opt/exercice.sh /home/daoyu/Desktop/MU5EE05/partie_1/lab7/exercice.sh".
