@@ -10,4 +10,7 @@ if [ -d "$repertoire" ]; then
             echo "Répertoire : $dossier"
         fi
     done
+else
+    echo "Le chemin spécifié n'est pas un répertoire valide."
+    exit 1
 fi
