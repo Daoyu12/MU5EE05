@@ -15,9 +15,9 @@ Change: 2023-09-27 13:10:01.536082850 +0200
 
 Question 8: La commande "ls  -d .*"  permet de afficher les fichiers cachés, on trouve ensuite le ficher ".lightbulb" est caché.  Affichage du terminal: .  ..  .git  .lightbulb
 
-Question 9: Pour faites afficher les fichiers les plus anciens dans le répertoire, nous utilisons la commande "ls -rt", et pour faites afficher les fichiers les plus récents dans le répertoire, nous utilisons la commande "ls -r".
+Question 9: Pour faire afficher les fichiers les plus anciens dans le répertoire, nous utilisons la commande "ls -rt", et pour faites afficher les fichiers les plus récents dans le répertoire, nous utilisons la commande "ls -r".
 
-Question 10: Pour faites afficher les fichiers les plus petits en premier, et les plus gros en dernier, taper la commande "ls -lsr"
+Question 10: Pour faire afficher les fichiers les plus petits en premier, et les plus gros en dernier, taper la commande "ls -lsr"
 
 Question 11: La commande "cat answering-machine.txt" pour afficher le contenu du fichier answering-machine.txt.
 

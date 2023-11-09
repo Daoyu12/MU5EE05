@@ -24,7 +24,7 @@ Question 10: "grep -icrE "singh.*santa|santa.*singh" sardar/" compter que les li
 
 Question 11: Affinez une fois de plus la commande pour ne compter que les lignes qui contiennent santa, singh, mais pas banta. "grep -irE "singh.*santa|santa.*singh" sardar/ | grep -i -v -E -c banta"
 
-Question 12: Trouver tous les fichiers dans le répertoire lab5 qui finisse par .txt.
+Question 12: Trouver tous les fichiers dans le répertoire lab5 qui finisse par .txt. Commande: find /repertoire -type f -name "*.txt"
 
 Question 13. Lancer la commande permettant de comparer le contenu deux fichiers noyau.V1 et noyau.V2. Identifier la différence entre les deux fichiers. "diff noyau.v1 noyau.v2"
 
