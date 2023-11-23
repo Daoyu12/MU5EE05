@@ -1,0 +1,9 @@
+
+gcc -c max.c -o max.o
+ar r liboutils.a max.o min.o
+ar t liboutils.a
+"ranlib liboutils.a" sert à mettre à jour le bibliothèque liboutils.
+"gcc testall.c -o testall -L. -loutils" pour créer et démarrer testall.c utilisant la bibliothèque.
+sudo copy /home/daoyu/Desktop/MU5EE05/partie_3/lab9/max.h opt/include
+gcc testall.c -I/opt/include -L/opt/lib -loutils -o testall
+./testall
