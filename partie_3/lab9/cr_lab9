@@ -7,3 +7,4 @@ ar t liboutils.a
 sudo copy /home/daoyu/Desktop/MU5EE05/partie_3/lab9/max.h opt/include
 gcc testall.c -I/opt/include -L/opt/lib -loutils -o testall
 ./testall
+"gcc testall.c -I/opt/include -L/opt/lib -loutils -o testall -lm" rajoute le bibliothèque math dans dans le programme.
