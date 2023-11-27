@@ -1,4 +1,3 @@
-
 "gcc -c max.c -o max.o" crée le fichier .o. 
 "ar r liboutils.a max.o min.o" créer un bibliothèque qui s'appelle liboutils.a. 
 "ar t liboutils.a" affiche les fichier dans le bibliothèque liboutils.a.
