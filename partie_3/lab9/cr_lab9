@@ -8,3 +8,4 @@
 "gcc testall.c -I/opt/include -L/opt/lib -loutils -o testall" sert à créer un fichier testall et déclarer le chemin de fichier dans les répertoires include et lib. 
 ./testall pour exécuter le fichier testall
 "gcc testall.c -I/opt/include -L/opt/lib -loutils -o testall -lm" rajoute le bibliothèque math dans dans le programme.
+"cp -r /opt /home/daoyu/Desktop/MU5EE05/partie_3/lab9" copie tous les fichiers de opt dans le lab9.
