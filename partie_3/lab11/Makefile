@@ -1,6 +1,6 @@
 CC = gcc
 TARGET = my-binaire
-INSTALL_DIR = /home/spi-2019
+INSTALL_DIR = /home/daoyu
 CC_OPTIONS = -g -Wall
 
 SRCS = max.c min.c var.c testall.c
@@ -8,9 +8,12 @@ OBJS = $(SRCS:.c=.o)
 
 ifeq ($(DEBUG),yes)
     CC_OPTIONS = -g -Wall
+	
 else
     CC_OPTIONS = -O2 -Wall
+	
 endif
+
 
 all: $(TARGET)
 
