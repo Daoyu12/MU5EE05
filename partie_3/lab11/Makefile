@@ -1,4 +1,4 @@
-CC = gcc
+
 TARGET = my-binaire
 INSTALL_DIR = /home/daoyu
 CC_OPTIONS = -g -Wall
@@ -18,19 +18,19 @@ endif
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CC) $(CC_OPTIONS) -o $@ $^
+	gcc $(CC_OPTIONS) -o $@ $^
 
 max.o: max.c
-	$(CC) $(CC_OPTIONS) -c $<
+	gcc $(CC_OPTIONS) -c $<
 
 min.o: min.c
-	$(CC) $(CC_OPTIONS) -c $<
+	gcc $(CC_OPTIONS) -c $<
 
 var.o: var.c
-	$(CC) $(CC_OPTIONS) -c $<
+	gcc $(CC_OPTIONS) -c $<
 
 test.o: test.c
-	$(CC) $(CC_OPTIONS) -c $<
+	gcc $(CC_OPTIONS) -c $<
 
 install: $(TARGET)
 	cp $(TARGET) $(INSTALL_DIR)
