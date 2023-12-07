@@ -13,7 +13,7 @@ Il exécute pas le programme. Il affiche "./testall: error while loading shared 
 "sudo ldconfig -p | grep libdaoyu" pour vérifier que mon bibliotèque est bien reconnu par votre système. Il affiche "libdaoyu.so (libc6,x86-64) => /lib x86_64-linux-gnu/libdaoyu.so". Il bien connait mon bibliotèque.
 "unset LD_LIBRARY_PATH" pour désactiver la variable d’environnement LD_LIBRARY_PATH.
 "gcc -o testall2 testall.c -ldaoyu" compile le main en indiquant uniquement le nom de la bibliothèque via l’option –l et sans avoir à indiquer son chemin d’accès. 
-Tester avec la commande "./testall2" . 
+Tester avec la commande "./testall2" .  
 
 
 
