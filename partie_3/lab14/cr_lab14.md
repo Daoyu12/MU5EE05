@@ -1,0 +1,3 @@
+La commande "udo apt install gcc-arm-linux-gnueabi" sert à installer la chaîne de cross compilation proposé par le repository de ubuntu. Le nom de la chaîne est gcc-arm-linux-gnueabi.
+"dpkg -L gcc-arm-linux-gnueabi" pour retrouver le chemin d’accès au cross compilateur et le nom de l’exécutable que vous allez utiliser pour cross compiler vos programmes
+"nano ~/.bashrc" pour modifier le fichier bashrc, rajoutez les deux variables par "export ARCH=arm et export CROSS_COMPILE=arm-linux-gnueabi-", puis tapez "source ~/.bashrc" pour activer le fichier bashrc. Enfin nous pouvons taper "echo $ARCH" et "echo $CROSS_COMPILE" pour vérifier ces deux variables sont reconnues.
