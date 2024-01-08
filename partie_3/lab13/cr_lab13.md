@@ -18,5 +18,5 @@ On active ssh par "sudo raspi-config".
 "sudo service ssh status", il affiche "active(running)".
 installer un client ssh
 On établie ssh par "ssh daoyu@192.168.0.1"
-"scp 333.txt daoyu@192.168.0.10:/home/daoyu" pour envoyer le fichier 333.txt à la carte. Après entrer le mot de passe.
+"scp 333.txt daoyu@192.168.0.10:/home/daoyu" pour envoyer le fichier 333.txt à la carte. Après entrer le mot de passe toto.
 
