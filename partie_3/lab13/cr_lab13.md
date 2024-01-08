@@ -7,7 +7,7 @@ Commande "reboot" pour redémarrer complètement le système. Vérifier avec la 
 "sudo apt install net-tools" pour installer l'outil net-tools. Et ensuite nous pouvons lancer la commande ifconfig pour identifier si votre OS arrive à détecter ou pas la nouvelle interface.
 "sudo /etc/init.d/networking restart" pour "Restarting networking (via systemctl): networking.service."
 "ifconfig" pour afficher des informations sur les interfaces réseau, et pour activer ou désactiver une interface réseau.
-rancher l’adaptateur Ethernet.
+Connecter l’adaptateur Ethernet.
 "ifconfig" pour identifier si votre OS arrive à détecter ou pas la nouvelle interface. (eth0)
 On configure adresse IPV4 : 192.168.0.1 Net mask : 255.255.255.0 sur le PC.
 "sudo /etc/init.d/networking restart" pour redémarrer l'interface ethernet.
